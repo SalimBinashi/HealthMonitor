@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity"
+    tools:context=".activities.HomeActivity"
     android:orientation="vertical">
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -237,6 +237,13 @@
 
 
             </androidx.appcompat.widget.LinearLayoutCompat>
+            <Button
+                android:id="@+id/lookupBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Visit Lookup Page"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
         </LinearLayout>
 
 

@@ -1,4 +1,4 @@
-package com.example.healthmonitor;
+package com.example.healthmonitor.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -19,13 +19,12 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 import android.widget.ToggleButton;
 
+import com.example.healthmonitor.R;
 import com.example.healthmonitor.utilities.SharedHelper;
 
 import java.util.Calendar;
-import java.util.regex.Pattern;
 
 import es.dmoral.toasty.Toasty;
 
