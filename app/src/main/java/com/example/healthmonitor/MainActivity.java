@@ -184,7 +184,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         // show toast of selection
-        Toasty.info(this, "" + position, Toasty.LENGTH_SHORT).show();
 
     }
 
